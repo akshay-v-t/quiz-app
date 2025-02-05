@@ -40,8 +40,20 @@
 }
 
 .container ul li:hover{
-    background-color: #fff7e4;
-    border: 2px solid #2222;
+   
+   background-color: #f0f0f0;
+  
+}
+
+.container .wrong{
+    background-color: #fdc5c5;
+    border: 2px solid #32000022;
+  
+}
+
+.container .correct{
+    background-color: #d2feda;
+    border: 2px solid #03340022;
   
 }
 
