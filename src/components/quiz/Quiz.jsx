@@ -84,7 +84,7 @@ const Quiz = () => {
 
     useEffect(()=>{
         const source = axios.CancelToken.source();
-        axios.get('https://opentdb.com/api.php?amount=10&category=28')
+        axios.get('https://opentdb.com/api.php?amount=10&category=9')
         .then(response => {
            setQuestions(response.data.results)
         })
