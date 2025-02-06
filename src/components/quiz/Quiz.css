@@ -1,13 +1,14 @@
 .container{
     display: flex;
     flex-direction: column;
+    
    
    
     gap: 20px;
     border-radius: 10px;
     margin: auto;
     margin-top: 150px;
-    width: 640px;
+    max-width: 640px;
     padding: 40px 60px;
     background-color: white;
 }
@@ -75,4 +76,20 @@
 
 .container .index{
     margin: auto;
+}
+
+
+@media screen  and  (max-width:600px) {
+    .container{
+        width: 90%;
+        padding: 20px;
+    }
+    .container ul li{
+        font-size: 16px;
+        height: 50px;
+    }
+    .container h2{
+        font-size: 18px;
+    }
+  
 }
